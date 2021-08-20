@@ -1,0 +1,504 @@
+/* cart page: change background color of coupon code and update cart row */
+
+.woocommerce-cart .woocommerce table.shop_table td.actions {
+border-top: 1px solid var(--e-global-color-secondary);
+background: #ffffff;
+/* change color here */
+border-bottom: 0px solid var(--e-global-color-secondary);
+}
+.woocommerce-cart .woocommerce .cart-collaterals {
+width: 100%;
+float: right;
+}
+.woocommerce-cart .woocommerce .cart-collaterals .cart_totals {
+width: 49%;
+}
+
+/* change font size and font color of the cart titles (Product Price Quantity Total Subtotal */
+
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+#add_payment_method table.cart th,
+.woocommerce-cart table.cart th,
+.woocommerce-checkout table.cart th,
+.woocommerce-checkout table.shop_table th {
+font-family:var(--e-global-typography-secondary-font-family);
+font-weight:var(--e-global-typography-secondary-font-wight);
+letter-spacing:var(--e-global-typography-secondary-letter-spacing);
+color:var(--e-global-color-secondary);
+font-size:var(--e-global-typography-secondary-font-size);
+}
+
+/* change the border below the first row in the cart */
+
+#add_payment_method .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .woocommerce table.shop_table th,
+.woocommerce-checkout-review-order tr td{
+border-bottom: 4px solid var(--e-global-color-accent);
+}
+
+.woocommerce-cart .woocommerce table.shop_table,
+.woocommerce-checkout .woocommerce table.shop_table {
+border: none /*1px solid white*/;
+margin: 0;
+text-align: left;
+width: 100%;
+border-collapse: separate;
+border-radius: 0;
+border-bottom: none;
+border-right: none;
+margin-bottom: 35px;
+}
+.woocommerce table td {
+    border:none;
+}
+
+body #add_payment_method #payment ul.payment_methods li input,
+body.woocommerce-cart #payment ul.payment_methods li input,
+body.woocommerce-checkout #payment ul.payment_methods li input {
+width: auto;
+margin: -2px .5em 0 0;
+}
+
+body .woocommerce form .form-row .input-checkbox {
+width: auto;
+margin: -2px 5px 0 0;
+}
+
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+body.woocommerce-cart .cart-collaterals .cart_totals tr td,
+body.woocommerce-cart .cart-collaterals .cart_totals tr th,
+body.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+body.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+body .woocommerce table.shop_table th {
+border-top: none;
+border-bottom: 1px solid var(--e-global-color-secondary);
+text-align: right;
+padding: 10px 20px;
+}
+
+.woocommerce-checkout-review-order-table thead tr th,
+.woocommerce-checkout-review-order-table tfoot tr th{
+    border:none;
+}
+
+body #add_payment_method table.cart td,
+body #add_payment_method table.cart th,
+body.woocommerce-cart table.cart td,
+body.woocommerce-cart table.cart th,
+body.woocommerce-checkout table.cart td,
+body.woocommerce-checkout table.cart th {
+border: none;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table th {
+border-bottom: 1px solid #e6e6e6;
+}
+
+/* change button Proceed to Checkou color and font weight here */
+
+body .woocommerce #respond input#submit.alt,
+body .woocommerce a.button.alt,
+body .woocommerce button.button.alt,
+body .woocommerce input.button.alt {
+background: var(--e-global-color-secondary) !important;
+font-family:var(--e-global-typography-secondary-font-family);
+letter-spacing:var(--e-global-typography-secondary-letter-spacing);
+font-weight: 400;
+}
+
+/* change button Proceed to Checkou hover color here */
+
+body .woocommerce #respond input#submit.alt:hover,
+body .woocommerce a.button.alt:hover,
+body .woocommerce button.button.alt:hover,
+body .woocommerce input.button.alt:hover {
+background: var(--e-global-color-accent) !important;
+}
+
+/* change butons Add to cart, Apply code and Proceed to Checkout styling here */
+
+body .woocommerce .cart .button,
+body .woocommerce .cart input.button,
+body .woocommerce #respond input#submit,
+body .woocommerce a.button,
+body .woocommerce button.button,
+body .woocommerce input.button {
+background: var(--e-global-color-secondary) !important;
+color: #fff;
+font-weight: 300;
+border-radius: 40px;
+letter-spacing:var(--e-global-typography-secondary-letter-spacing);
+}
+.woocommerce-cart .cart_totals tr td,
+.woocommerce .shop_table tbody tr td{
+font-family:var(--e-global-typography-secondary-font-family);
+letter-spacing:var(--e-global-typography-secondary-letter-spacing);
+}
+/* change butons Add to cart hover color here */
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover {
+color: #eee;
+}
+
+/* modify place order button styling in checkout page */
+
+body .woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
+float: right;
+width: 100%;
+text-align: center;
+margin-bottom: 0;
+font-size: 1.4em;
+padding: 1em;
+border-radius: 40px;
+margin-top: .5em;
+}
+
+body .woocommerce form .form-row-first,
+body .woocommerce form .form-row-last,
+body .woocommerce-page form .form-row-first,
+body .woocommerce-page form .form-row-last {
+width: 49%;
+}
+
+body .woocommerce #respond input#submit.disabled,
+body .woocommerce #respond input#submit:disabled,
+body .woocommerce #respond input#submit:disabled[disabled],
+body .woocommerce a.button.disabled,
+body .woocommerce a.button:disabled,
+body .woocommerce a.button:disabled[disabled],
+body .woocommerce button.button.disabled,
+body .woocommerce button.button:disabled,
+body .woocommerce button.button:disabled[disabled],
+body .woocommerce input.button.disabled,
+body .woocommerce input.button:disabled,
+body .woocommerce input.button:disabled[disabled] {
+background: #ccc;
+}
+
+body .woocommerce a.checkout-button.button.alt {
+border-radius: 40px;
+}
+
+/* change the padding of each item in the cart and checkout page*/
+
+body .woocommerce table.shop_table td {
+padding: 19px;
+}
+
+/* change styling of the shop table on the checkout page */
+
+.woocommerce-checkout h3#order_review_heading,
+.woocommerce-checkout #customer_details h3{
+    font-family:var(--e-global-typography-primary-font-family);
+    font-weight:var(--e-global-typography-primary-font-wight);
+    letter-spacing:var(--e-global-typography-primary-letter-spacing);
+    font-size:var(--e-global-typography-primary-font-size);
+    color:var(--e-global-color-secondary);   
+}
+
+body .woocommerce-checkout table.shop_table td {
+text-align: right;
+border-right: none !important/*1px solid #e6e6e6*/;
+border-top: 0;
+}
+
+.woocommerce-checkout table.shop_table tfoot tr th {
+    text-align:left;
+}
+
+.woocommerce-checkout table.shop_table tfoot tr td,
+.woocommerce-billing-fields,
+.woocommerce-billing-fields .woocommerce-input-wrapper input::placeholder, 
+.woocommerce-billing-fields .woocommerce-input-wrapper input[type=text],
+.woocommerce-additional-fields p, 
+.woocommerce-additional-fields label,
+{
+    font-family:var(--e-global-typography-secondary-font-family);
+    font-weight:var(--e-global-typography-secondary-font-wight);
+    letter-spacing:var(--e-global-typography-secondary-letter-spacing);
+    font-size:var(--e-global-typography-secondary-font-size);
+}
+.woocommerce-additional-fields textarea::placeholder,
+.woocommerce-additional-fields textarea
+{
+    font-family:var(--e-global-typography-accent-font-family);
+    font-weight:var(--e-global-typography-accent-font-wight);
+
+}
+.woocommerce table.shop_table tfoot th {
+    font-weight:400;
+}
+.woocommerce a.remove {
+margin: 0 auto;
+}
+
+.woocommerce-cart .woocommerce table.shop_table th.product-remove,
+.woocommerce-cart .woocommerce table.shop_table th.product-name {
+text-align: center;
+}
+
+.woocommerce-cart .woocommerce table.shop_table th.product-price,
+.woocommerce-cart .woocommerce table.shop_table th.product-quantity,
+.woocommerce-cart .woocommerce table.shop_table th.product-subtotal {
+text-align: right;
+}
+
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-price,
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-quantity,
+.woocommerce-cart .woocommerce table.shop_table .cart_item td.product-subtotal {
+text-align: right;
+}
+
+.woocommerce-checkout #add_payment_method #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {
+list-style: none;
+}
+
+.woocommerce-checkout .woocommerce .col2-set {
+width: 47%;
+float: left;
+margin-right: 4%;
+}
+
+.woocommerce-checkout .woocommerce .col2-set .col-1,
+.woocommerce-checkout .woocommerce .col2-set .col-2 {
+margin-bottom: 2em;
+width: 100%;
+float: none;
+}
+
+.woocommerce-checkout #order_review_heading,
+.woocommerce-checkout #order_review {
+background: #fff;
+width: 47%;
+float: right;
+margin-right: 0;
+}
+
+.woocommerce-checkout #ship-to-different-address-checkbox {
+width: auto;
+float: right;
+margin-left: 15px;
+margin-top: 10px;
+opacity: 1;
+position: static;
+}
+
+.woocommerce-checkout #ship-to-different-address label {
+font-size: 24px;
+font-weight: 600;
+line-height: 1;
+margin: 0;
+margin-bottom: 1em;
+padding: 0;
+text-transform: uppercase;
+color: #000;
+}
+
+.woocommerce-checkout .woocommerce form .form-row.create-account label {
+padding-top: 2px;
+font-weight: bold;
+}
+
+.woocommerce-checkout .payment-fixed {
+position: fixed;
+z-index: 9;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 2em;
+left: 52%;
+margin-left: 0;
+padding: 20px;
+top: 0;
+width: 45.5% !important;
+-webkit-transition: padding .1s ease-in;
+-moz-transition: padding .1s ease-in;
+-o-transition: padding .1s ease-in;
+-ms-transition: padding .1s ease-in;
+transition: padding .1s ease-in;
+}
+
+.product-shipping-message {
+font-size: 16px;
+text-align: center;
+text-transform: uppercase;
+padding: 10px 0px;
+border-top: 1px solid #139248;
+border-bottom: 1px solid #139248;
+}
+
+body .woocommerce table.shop_table tbody th,
+body .woocommerce table.shop_table tfoot td,
+body .woocommerce table.shop_table tfoot th {
+border-bottom: none;
+}
+
+body .woocommerce form .form-row input.input-text,
+body .woocommerce form .form-row textarea {
+max-width: 100%;
+}
+
+body .woocommerce .product-name a {
+color: #000;
+pointer-events: none;
+cursor: default;
+}
+
+.woocommerce-checkout #payment {
+    background:none !important;
+    padding:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.25);
+}
+.woocommerce-checkout #payment ul.wc_payment_methods,
+.woocommerce-checkout #payment div.form-row {
+    padding:4%;
+}
+.woocommerce-checkout #payment{
+    font-family:var(--e-global-typography-accent-font-family);
+    font-weight:var(--e-global-typography-accent-font-wight);
+    letter-spacing:0;
+} 
+
+@media only screen and (max-width: 1139px) {
+.woocommerce-cart .entry-content form {
+width: 64%;
+}
+}
+
+@media only screen and (max-width: 980px) {
+.woocommerce-cart .woocommerce .cart-collaterals .cart_totals {
+width: 100%;
+}
+.woocommerce-cart .entry-content form {
+width: 81%;
+float: none;
+margin: 0 auto;
+}
+.woocommerce-cart .woocommerce .cart-collaterals {
+width: 81%;
+float: None;
+margin: auto;
+}
+body .woocommerce #content table.cart td.actions .coupon,
+body .woocommerce table.cart td.actions .coupon {
+width: 100%;
+}
+body #add_payment_method table.cart td.actions .coupon .input-text,
+body.woocommerce-cart table.cart td.actions .coupon .input-text,
+body.woocommerce-checkout table.cart td.actions .coupon .input-text {
+width: 48%;
+}
+}
+
+body #add_payment_method table.cart td.actions .coupon .input-text,
+body.woocommerce-cart table.cart td.actions .coupon .input-text,
+body.woocommerce-checkout table.cart td.actions .coupon .input-text {
+border-radius: 41px;
+}
+
+@media only screen and (max-width: 651px) {
+.woocommerce-checkout .woocommerce .col2-set {
+width: 100%;
+float: none;
+margin-right: 0;
+}
+.woocommerce-checkout #order_review_heading,
+.woocommerce-checkout #order_review {
+width: 100%;
+float: none;
+}
+}
+
+#add_payment_method table.cart td,
+.woocommerce-cart table.cart td,
+.woocommerce-checkout table.cart td,
+.woocommerce-checkout table.shop_table td {
+color: #555;
+font-size: 16px;
+font-size: 1.4rem;
+}
+
+.cart-collaterals {
+font-size: 16px;
+font-size: 1.4rem;
+}
+
+@media (min-width:900px) {
+body .woocommerce #content table.cart td.actions .coupon,
+body .woocommerce table.cart td.actions .coupon {
+width: 51%;
+}
+body #add_payment_method table.cart td.actions .coupon .input-text,
+body.woocommerce-cart table.cart td.actions .coupon .input-text,
+body.woocommerce-checkout table.cart td.actions .coupon .input-text {
+padding: 12px 10px 10px;
+width: 40%;
+}
+}
+
+@media (max-width:481px) {
+#add_payment_method table.cart td,
+.woocommerce-cart table.cart td,
+.woocommerce-checkout table.cart td,
+.woocommerce-checkout table.shop_table td {
+color: #555;
+font-size: 16px;
+font-size: 1.1rem;
+}
+body #add_payment_method table.cart td.actions .coupon .input-text,
+body.woocommerce-cart table.cart td.actions .coupon .input-text,
+body.woocommerce-checkout table.cart td.actions .coupon .input-text {
+padding: 8px 10px 6px;
+}
+.cart_totals>table {
+font-size: 1.1rem;
+}
+.woocommerce-cart {
+overflow-x: hidden;
+}
+}
+
+@media (max-width:321px) {
+.woocommerce #respond #submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce .button {
+font-size: initial!important;
+}
+}
+
+/*edit background color of item list on checkout page */
+
+#order_review>table tbody>tr:nth-child(odd)>td,
+table tbody>tr:nth-child(odd)>th {
+background-color: #eee;
+}
+
+/*edit background color of payment box in checkout page */
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+background: #ebe9eb;
+}
+
+/*edit background color of payment method in checkout page*/
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+position: relative;
+box-sizing: border-box;
+width: 100%;
+padding: 1em;
+margin: 1em 0;
+font-size: .92em;
+border-radius: 2px;
+line-height: 1.5;
+background-color: #dfdcde;
+/*change the color here*/
+}
