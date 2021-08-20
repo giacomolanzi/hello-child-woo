@@ -217,8 +217,7 @@ border-top: 0;
 .woocommerce-billing-fields .woocommerce-input-wrapper input::placeholder, 
 .woocommerce-billing-fields .woocommerce-input-wrapper input[type=text],
 .woocommerce-additional-fields p, 
-.woocommerce-additional-fields label,
-{
+.woocommerce-additional-fields label {
     font-family:var(--e-global-typography-secondary-font-family);
     font-weight:var(--e-global-typography-secondary-font-wight);
     letter-spacing:var(--e-global-typography-secondary-letter-spacing);
