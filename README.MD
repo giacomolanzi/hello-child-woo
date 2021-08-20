@@ -1,56 +1,54 @@
-# Hello Elementor child theme with more functionalities
+# Hello Elementor child theme con aggiunta di funzionalità utili per WooCommerce e per la sicurezza
 
 A simple child theme that add usefull code into funtions.php in order to activate interesting feature to your website.
 
 I use this child theme with my client, to insert in my websites functionalities that could be useful in the future.
 
-## === Hello Elementor Child ===
+## === Hello Child Woo ===
 
 * Contributors: Giacomo Lanzi
 * Requires at least: WordPress 4.7
-* Tested up to: WordPress 5.7
-* Stable tag: 1.0.0
+* Tested up to: WordPress 5.8
+* Stable tag: 1.2.0
 * Version: 1.0.1
 * Requires PHP: 7.x
 * License: GNU General Public License v3 or later
 * License URI: https://www.gnu.org/licenses/gpl-3.0.html
 * Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 
-The **Hello Elementor Child Theme Plus** is a starter blank child theme for [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme. It will add some useful feature to the website.
+Il tema **Hello Child Woo** è uno tema figlio per il tema [Hello Elementor](https://wordpress.org/themes/hello-elementor/). Aggiunge alcune funzionalità e stili utili a un sito con WooCommerce
 
-**Hello Elementor** is distributed under the terms of the GNU GPL v3 or later.
+**Hello Elementor** è distribuito con licenza GNU GPL v3 o successive.
 
 ### == Theme Description ==
 
-A basic, plain-vanilla, lightweight theme, best suited for building your site using Elementor page builder.
+Un tema di base, semplice e leggero, più adatto per costruire il tuo sito utilizzando Elementor page builder.
+Questo tema resetta l'ambiente WordPress e lo prepara per il buon funzionamento di Elementor.
 
-This theme resets the WordPress environment and prepares it for smooth operation of Elementor.
+### == Personalizzazioni ==
 
-### == Installation ==
+La maggior parte degli utenti non avrà bisogno di modificare i file per personalizzare questo tema.
+Per personalizzare l'aspetto del tuo sito, usa semplicemente ***Elementor***.
 
-1. In your admin panel, go to Appearance > Themes and click the 'Add New' button.
-2. Click 'Upload theme' and upload the zipped child
-3. Click on the 'Activate' button to use your new theme right away.
-4. Navigate to Elementor and start building your site.
+Tuttavia, se avete un bisogno particolare di adattare questo tema, continuate a leggere.
 
-### == Customizations ==
+### === Stili WooCommerce ===
 
-Most users will not need to edit the files for customizing this theme.
-To customize your site's appearance, simply use ***Elementor***.
+È presente un foglio di stile apposito per le opzioni di WooCommerce. Il foglio di stile viene caricato dal file `functions.php`, assieme al foglio di stile del tema genitore. 
 
-However, if you have a particular need to adapt this theme, please read on.
+All'interno della cartella `includes` sono presenti degli asset (immagini e file php) richiamati da `functions.php`.
 
-### == Frequently Asked Questions ==
+### == Domande frequenti ==
 
-**Does this theme support any plugins?**
+**Questo tema supporta qualche plugin?
 
-Hello Elementor includes support for WooCommerce and a lot of other.
+Ciao Elementor include il supporto per WooCommerce e molti altri.
 
-**Can Font Styles be added thru the theme's css file?**
+**Gli stili dei caratteri possono essere aggiunti attraverso il file css del tema?
 
-Yes, ***but*** best practice is to use the styling capabilities in the Elementor plugin.
+Sì, ma la pratica migliore è quella di utilizzare le funzionalità di styling del plugin Elementor.
 
 ### == Copyright ==
 
-This theme, like WordPress, is licensed under the GPL.
-Use it as your springboard to building a site with ***Elementor***.
+Questo tema, come WordPress, è sotto licenza GPL.
+Usatelo come trampolino di lancio per costruire un sito con ***Elementor***.
